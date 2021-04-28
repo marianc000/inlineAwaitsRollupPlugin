@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "inlineawaits",
   "main": "plugin.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs" 
 }
