@@ -1,7 +1,7 @@
 const path = require('path');
 const { readFileSync } = require('fs');
  
-function ImportmapPlugin({ imports } = { imports: [] }) {
+function ImportmapPlugin() {
     const re = /await +loadHTML\('([^,]+)',/g;
 
     return {
